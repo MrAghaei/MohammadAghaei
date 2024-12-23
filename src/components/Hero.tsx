@@ -3,9 +3,9 @@ function Hero() {
     <div className="flex items-center justify-center gap-20 px-96 mt-40">
       <div className="rounded">
         <img
-          className="w-80 rounded-full border-2 border-blue-900 shadow hover:shadow-2xl duration-300"
+          className="w-96 rounded-full border-2 border-blue-900 shadow hover:shadow-2xl duration-300"
           alt="M.Aghaei Photo"
-          src="/photo2.jpg"
+          src="/photo4.jpg"
         ></img>
       </div>
       <div className="flex flex-col items-center gap-2">
