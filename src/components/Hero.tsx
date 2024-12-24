@@ -7,14 +7,18 @@ function Hero() {
   };
   return (
     <div className="h-screen flex items-center justify-center gap-20 px-96 bg-gray-100">
-      <div className="rounded">
+      <div data-aos-duration="1000" data-aos="fade-right" className="rounded">
         <img
-          className="w-96 rounded-full border-2 border-blue-900 shadow hover:shadow-2xl duration-300"
+          className="w-96 rounded-full border-2 border-blue-900 shadow hover:!shadow-2xl duration-300"
           alt="M.Aghaei Photo"
           src="/photo4.jpg"
         ></img>
       </div>
-      <div className="flex flex-col items-center gap-2">
+      <div
+        data-aos-duration="1000"
+        data-aos="flip-left"
+        className="flex flex-col items-center gap-2"
+      >
         <p className="text-2xl">Hello, </p>
         <p className="text-2xl">I'm Mohammad Aghaei</p>
         <p className="text-3xl font-bold ">A Front-End Developer</p>
