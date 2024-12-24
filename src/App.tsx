@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe.tsx";
 import Experiences from "./components/Experiences.tsx";
 import Skills from "./components/Skills.tsx";
 import Projects from "./components/Projects.tsx";
+import ContactMe from "./components/ContactMe.tsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Experiences />
       <Skills />
       <Projects />
+      <ContactMe />
     </>
   );
 }
