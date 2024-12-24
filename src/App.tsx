@@ -3,6 +3,7 @@ import Hero from "./components/Hero.tsx";
 import AboutMe from "./components/AboutMe.tsx";
 import Experiences from "./components/Experiences.tsx";
 import Skills from "./components/Skills.tsx";
+import Projects from "./components/Projects.tsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Experiences />
       <Skills />
+      <Projects />
     </>
   );
 }
