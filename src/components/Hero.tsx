@@ -1,4 +1,10 @@
 function Hero() {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="h-screen flex items-center justify-center gap-20 px-96 bg-gray-100">
       <div className="rounded">
@@ -13,10 +19,17 @@ function Hero() {
         <p className="text-2xl">I'm Mohammad Aghaei</p>
         <p className="text-3xl font-bold ">A Front-End Developer</p>
         <div className="flex gap-3">
-          <button className="bg-blue-900 text-white p-3 rounded-2xl mt-5 hover:bg-blue-800 duration-300">
+          <a
+            href="/MohammadAghaei-en-resume.pdf"
+            download="MohammadAghaei-en-resume.pdf"
+            className="text-center bg-blue-900 text-white p-3 rounded-2xl mt-5 hover:bg-blue-800 duration-300"
+          >
             Download CV
-          </button>
-          <button className="border-2 border-blue-900 text-mainText p-3 rounded-2xl mt-5 hover:bg-blue-100 duration-300">
+          </a>
+          <button
+            onClick={() => scrollToSection("contact-me")}
+            className="border-2 border-blue-900 text-mainText p-3 rounded-2xl mt-5 hover:bg-blue-100 duration-300"
+          >
             Contact Me
           </button>
         </div>

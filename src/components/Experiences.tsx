@@ -2,7 +2,14 @@ function Experiences() {
   return (
     <div className="h-screen flex flex-col items-center justify-center gap-20 px-60 bg-gray-100">
       <h1 className="text-5xl font-bold">My Experiences</h1>
-      <div className="grid grid-cols-5 items-stretch gap-5  justify-center">
+      <div className="grid grid-cols-4 items-stretch gap-5  justify-center">
+        <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-start justify-center gap-2 border border-blue-900 rounded-2xl p-5">
+          <h3 className="text-2xl font-bold">
+            Content Manager & Graphic Designer
+          </h3>
+          <p>www.curlfans.com.au · Full-time</p>
+          <p className="opacity-80 text-sm">May 2021 - Jan 2022 · 9 months</p>
+        </div>
         <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-start justify-center gap-2 border border-blue-900 rounded-2xl p-5">
           <h3 className="text-2xl font-bold">Indie Game Developer</h3>
           <p>52 Hertz Mind · Self-employed</p>

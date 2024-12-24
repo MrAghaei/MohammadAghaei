@@ -5,17 +5,26 @@ import Experiences from "./components/Experiences.tsx";
 import Skills from "./components/Skills.tsx";
 import Projects from "./components/Projects.tsx";
 import ContactMe from "./components/ContactMe.tsx";
-
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      <AboutMe />
-      <Experiences />
-      <Skills />
-      <Projects />
-      <ContactMe />
+      <div id="about-me">
+        <AboutMe />
+      </div>
+      <div id="experiences">
+        <Experiences />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact-me">
+        <ContactMe />
+      </div>
     </>
   );
 }
