@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <div className="backdrop-blur-sm fixed w-full bg-white bg-opacity-90 px-6 sm:px-10 md:px-40 py-4 z-50 overflow-hidden">
+    <div className="backdrop-blur-sm fixed w-screen bg-white bg-opacity-90 px-6 sm:px-10 md:px-40 py-4 z-50 overflow-hidden">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <p className="font-bold text-xl sm:text-2xl md:text-3xl">
