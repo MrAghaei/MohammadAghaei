@@ -6,7 +6,11 @@ function Hero() {
     <div className="h-screen flex flex-col items-center justify-center gap-20 px-96 ">
       <h1 className="text-5xl font-bold">My Skills</h1>
       <div className="flex gap-10">
-        <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-center justify-center gap-8 border border-blue-900 rounded-2xl py-5 px-12">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="800"
+          className="shadow-xl hover:!shadow-2xl hover:!transition-shadow hover:!duration-300 flex flex-col items-center justify-center gap-8 border border-blue-900 rounded-2xl py-5 px-12"
+        >
           <h2 className="text-4xl text-gray-600">Front-end</h2>
           <div className="grid grid-cols-2 gap-10">
             <div className="flex items-center gap-4">
@@ -67,7 +71,10 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-center justify-center gap-8 border border-blue-900 rounded-2xl py-5 px-5">
+        <div
+          data-aos="fade-left"
+          className="shadow-xl hover:!shadow-2xl hover:!transition-shadow hover:!duration-300 flex flex-col items-center justify-center gap-8 border border-blue-900 rounded-2xl py-5 px-5"
+        >
           <h2 className="text-4xl text-gray-600">Other</h2>
           <div className="grid grid-cols-2 gap-10">
             <div className="flex items-center gap-4">
