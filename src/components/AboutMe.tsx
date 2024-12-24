@@ -2,7 +2,7 @@ import { FaCircle } from "react-icons/fa";
 
 function AboutMe() {
   return (
-    <div className="h-screen w-screen flex flex-col justify-center gap-10 md:gap-20 items-center px-5 md:px-20 lg:px-48">
+    <div className="h-screen w-full bg-white flex flex-col justify-center gap-10 md:gap-20 items-center px-5 md:px-20 lg:px-48">
       <h1 className="text-3xl md:text-5xl font-bold">About Me</h1>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
         {/* Timeline Section */}
