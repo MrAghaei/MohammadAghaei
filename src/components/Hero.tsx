@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex items-center justify-center gap-20 px-96 mt-40">
+    <div className="h-screen flex items-center justify-center gap-20 px-96 bg-gray-100">
       <div className="rounded">
         <img
           className="w-96 rounded-full border-2 border-blue-900 shadow hover:shadow-2xl duration-300"
