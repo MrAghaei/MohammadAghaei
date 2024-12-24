@@ -12,15 +12,17 @@ function Header() {
   };
 
   return (
-    <div className="backdrop-blur-sm fixed w-full bg-white bg-opacity-90 px-40 py-4 z-50">
+    <div className="backdrop-blur-sm fixed w-full bg-white bg-opacity-90 px-6 sm:px-10 md:px-40 py-4 z-50 overflow-hidden">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <p className="font-bold text-2xl md:text-3xl">Mohammad Aghaei</p>
+        <p className="font-bold text-xl sm:text-2xl md:text-3xl">
+          Mohammad Aghaei
+        </p>
 
         {/* Menu Button (Visible on small screens) */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden text-2xl focus:outline-none"
+          className="md:hidden text-2xl focus:outline-none ml-4"
         >
           {isMenuOpen ? "✖" : "☰"}
         </button>
