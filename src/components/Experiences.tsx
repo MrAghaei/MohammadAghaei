@@ -1,7 +1,7 @@
 function Experiences() {
   return (
     <div className="h-screen flex flex-col items-center justify-center gap-20 px-60 bg-gray-100">
-      <h1 className="text-5xl font-bold">Experiences</h1>
+      <h1 className="text-5xl font-bold">My Experiences</h1>
       <div className="grid grid-cols-5 items-stretch gap-5  justify-center">
         <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-start justify-center gap-2 border border-blue-900 rounded-2xl p-5">
           <h3 className="text-2xl font-bold">Indie Game Developer</h3>
