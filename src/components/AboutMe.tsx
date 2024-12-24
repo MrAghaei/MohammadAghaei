@@ -4,7 +4,7 @@ function AboutMe() {
     <div className="h-screen w-screen flex flex-col justify-center gap-20 items-center px-96 ">
       <h1 className="text-5xl font-bold">About Me</h1>
       <div className="flex items-center justify-center gap-10">
-        <div className="flex flex-col items-start justify-center h-full border rounded-2xl py-5 px-10 gap-3 font-bold">
+        <div className="shadow-xl hover:shadow-2xl duration-300 flex flex-col items-start justify-center h-full border border-blue-900 rounded-2xl py-5 px-10 gap-3 font-bold">
           <div className="flex items-center justify-center gap-4">
             <FaCircle />
             <p>
