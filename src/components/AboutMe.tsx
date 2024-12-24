@@ -1,7 +1,7 @@
 import { FaCircle } from "react-icons/fa";
 function AboutMe() {
   return (
-    <div className="h-screen w-screen flex flex-col justify-center gap-8 items-center px-96 ">
+    <div className="h-screen w-screen flex flex-col justify-center gap-20 items-center px-96 ">
       <h1 className="text-5xl font-bold">About Me</h1>
       <div className="flex items-center justify-center gap-10">
         <div className="flex flex-col items-start justify-center h-full border rounded-2xl py-5 px-10 gap-3 font-bold">
