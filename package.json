@@ -1,5 +1,5 @@
 {
-  "homepage": "http://MrAghaei.github.io/MrAghaei.github.io",
+  "homepage": "https://MrAghaei.github.io/MohammadAghaei",
   "name": "mohammadaghaei-personal-website",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "GithubBuild" : "gh-pages -d build ",
+    "ghbuild" : "gh-pages -d dist ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
