@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40 bg-gray-100">
+    <div className="dark:bg-darkModeBlack dark:text-white min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40 bg-gray-100">
       <h1 className="text-3xl md:text-5xl font-bold">My Projects</h1>
       <div
         data-aos-duration="1000"
