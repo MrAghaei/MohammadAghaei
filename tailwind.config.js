@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "selector",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -8,6 +9,7 @@ export default {
       },
       colors: {
         mainText: "#333A3F",
+        darkModeBlack: "#121212",
       },
     },
   },

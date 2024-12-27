@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 function ContactMe() {
   return (
-    <div className="bg-white min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40">
+    <div className="dark:bg-darkModeBlack dark:text-white bg-white min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40">
       <h1 className="text-3xl md:text-5xl font-bold">Contact Me</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 w-full md:w-auto">
         <div

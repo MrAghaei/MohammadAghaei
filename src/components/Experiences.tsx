@@ -1,6 +1,6 @@
 function Experiences() {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center gap-10 py-20 md:gap-20 px-5 md:px-20 lg:px-60 bg-gray-100">
+    <div className="dark:bg-darkModeBlack dark:text-white min-h-screen w-full flex flex-col items-center justify-center gap-10 py-20 md:gap-20 px-5 md:px-20 lg:px-60 bg-gray-100">
       <h1 className="text-3xl md:text-5xl font-bold">My Experiences</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
         {[

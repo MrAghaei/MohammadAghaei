@@ -3,7 +3,7 @@ import { MdVerified } from "react-icons/md";
 
 function Skills() {
   return (
-    <div className="bg-white py-20 min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40">
+    <div className="dark:bg-darkModeBlack dark:text-white bg-white py-20 min-h-screen flex flex-col items-center justify-center gap-10 md:gap-20 px-5 md:px-20 lg:px-40">
       <h1 className="text-3xl md:text-5xl font-bold">My Skills</h1>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
         {/* Front-end Section */}
