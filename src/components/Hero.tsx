@@ -15,7 +15,7 @@ function Hero() {
         <img
           className="w-48 md:w-72 lg:w-96 rounded-full border-2 border-blue-900 shadow hover:shadow-2xl duration-300"
           alt="M.Aghaei Photo"
-          src="/photo4.jpg"
+          src="/photo1.jpg"
         />
       </div>
 
